@@ -1,0 +1,96 @@
+//variable
+$gray-dark: #272e35;
+$primary-color: #579aff;
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+input {
+  line-height: normal;
+}
+label,
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-color: white;
+}
+
+.wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+}
+
+.button {
+  display: inline-block;
+  font-size: 16px;
+  color: $gray-dark;
+  outline: none;
+  padding: 20px 45px;
+  border-radius: 10px;
+  cursor: pointer;
+  line-height: normal;
+  background-color: transparent;
+  &--primary {
+    color: white;
+    background-color: $primary-color;
+  }
+}
+
+.header {
+  padding-top: 44px;
+  display: flex;
+  align-items: center;
+  &-logo {
+    display: block;
+    margin-right: 180px;
+  }
+  &-auth {
+    margin-left: auto;
+  }
+  &-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  &-menu-item:not(:first-child) {
+    margin-left: 75px;
+  }
+  &-menu-link {
+    color: $gray-dark;
+    transition: 0.2s ease-in-out;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
