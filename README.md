@@ -1,3 +1,3 @@
 # Zulu Landing Page
 
-![Zulu](“/zulu.png”)
+![Zulu](/zulu.png)
