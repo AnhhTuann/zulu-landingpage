@@ -1,6 +1,5 @@
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 * {
@@ -11,8 +10,7 @@ html {
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 input,
@@ -68,52 +66,73 @@ body {
   line-height: normal;
   background-color: transparent;
 }
-
 .button--primary {
   color: white;
   background-color: #579aff;
 }
+.button--outline {
+  border: 1px solid;
+  color: #a7b3c4;
+}
 
 .header {
   padding-top: 44px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .header-logo {
   display: block;
   margin-right: 180px;
 }
-
 .header-auth {
   margin-left: auto;
 }
-
 .header-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   list-style: none;
 }
-
 .header-menu-item:not(:first-child) {
   margin-left: 75px;
 }
-
 .header-menu-link {
   color: #272e35;
-  -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
 }
-
 .header-menu-link:hover {
   color: #579aff;
 }
+
+.banner {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+.banner-info {
+  width: 35%;
+}
+.banner-image {
+  width: 65%;
+  transform: translateX(50px);
+}
+.banner-heading {
+  font-size: 55px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+}
+.banner-heading span {
+  display: block;
+}
+.banner-decs {
+  font-weight: 300;
+  line-height: 1.5;
+  color: #a7b3c4;
+  margin-bottom: 50px;
+}
+.banner-links .button:first-child {
+  margin-right: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 /*# sourceMappingURL=styles.css.map */
