@@ -56,7 +56,6 @@
     word-break: break-word;
   }
   &-desc {
-    font-weight: 300;
     margin-bottom: 35px;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -66,6 +65,5 @@
     width: 100%;
     max-width: 100%;
     word-break: break-word;
-    color: $gray;
   }
 }
