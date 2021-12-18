@@ -2,4 +2,4 @@
 
 ![Zulu](/zulu.png)
 
-# Chaỵ lệnh : `sass scss/styles.scss css/styles.css --watch`
+## Chaỵ lệnh : `sass scss/styles.scss css/styles.css --watch`
